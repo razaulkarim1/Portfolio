@@ -1,0 +1,178 @@
+@media only screen and (max-width: 5000px){
+    .sticky .hero-text-box {
+        display: none;
+    }
+    
+    .sticky .logo span {
+        color: #333;
+    }
+    
+    .sticky .main-nav li a:hover {
+        color: #f2f2f2;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    
+    header {
+        height: 100vh;
+    }
+    
+    html {
+        font-size: 57.2%;
+    }
+    
+    .row {
+        margin: 0 1.5rem;
+    }
+    
+    .contact-section .message {
+        margin-left: 3%;
+    }
+    
+    .mobile-menu span {
+        display: block;
+    }
+    
+    .main-nav {
+        display: none;
+    }
+    
+    .sticky {
+        display: none;
+    }
+    
+}
+
+@media only screen and (max-width: 980px){
+    html {
+        font-size: 62.5%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .hero-text-box .btn-hire {
+        padding: 1.3rem 3.5rem;
+    }
+    .about-section h5 {
+        font-size: 2rem;
+        margin-top: 1.5rem;
+    }
+    
+    .short-description {
+        font-size: 1.4rem;
+    }
+    
+    .about-section .img-about {
+        margin-top: 1rem;
+        width: 90%;
+    }
+    
+    .about-section .btn-cv {
+        padding: 1.3rem 2.5rem;
+    }
+    
+    .services-section .col {
+        width: 49%;
+    }
+    
+    .services-section .col:nth-child(3){
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    
+    h2 {
+        font-size: 3rem;
+    }
+    
+    h4 {
+        font-size: 2rem;
+    }
+    
+    h5 {
+        font-size: 1.8rem;
+    }
+    .about-section .img-about {
+        width: 100%;
+    }
+    
+    .short-description {
+        width: 100%;
+    }
+    
+    .skills-section span {
+        font-size: 1.3rem;
+    }
+    
+    .skills-section .btn-more {
+        padding: 1.3rem 2.5rem;
+    }
+    
+    .contact-section button {
+        padding: 1.3rem 2rem;
+    }
+    
+    .skills-section .bars {
+        margin-left: 0;
+        margin-top: 3rem;
+    }
+    
+    .contact-section form .row {
+        margin: 0;
+    }
+    
+    .services-section .col {
+        width: 98%;
+    }
+    
+    .services-section .service_1 .short-description {
+        padding: 0 5rem;
+    }
+    
+    .team-section .items .short-description {
+        padding: 0 5rem;
+    }
+    
+}
+
+@media only screen and (max-width: 320px){
+    h1 {
+        font-size: 4rem;
+    }
+    
+    header h5 {
+        font-size: 2.1rem;
+    }
+    
+    h6 {
+        font-size: 1.8rem;
+    }
+    
+    .hero-text-box .btn-hire {
+        padding: 1.3rem 3rem;
+    }
+    
+    .services-section .service_1 .short-description {
+        padding: 0;
+    }
+    
+    .team-section .items .short-description {
+        padding: 0;
+    }
+    
+    .skills-section .bars {
+        margin-left: 0;
+        margin-top: 3rem;
+    }
+    
+    .contact-section .message {
+        margin-left: 0;
+    }
+    
+    .contact-section form .row {
+        margin: 0;
+    }
+    
+}
